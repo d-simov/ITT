@@ -18,7 +18,8 @@ public class StringTasks06 {
         String[] stringArray = new String[length];
         System.out.println("Please, enter a word to fill the array with: ");
         String singleString = sc.nextLine();
-
+// Краси, защо sc.nextLine(); на ред20 не паузира изпълнението на програмата, а присвоява на низа празна стойност ("") 
+// и програмата продължава изпълнение без да съм въвел нищо? При sc.next() работи за първата дума, но в този вариант - не!?!
         for (int i = 0; i < stringArray.length; i++) {
             stringArray[i] = singleString;
         }
