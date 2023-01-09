@@ -8,7 +8,17 @@ public class StringTasks05 {
 Напишете програма, която проверява дали даден символен низ
 е анаграма (съдържа същите символи, но не задължително в
 същия ред) на друг символен низ.
+
+                    I worked with one counter and in the last conditional statement (row 44) I would return false if counter != 1.
+                    It worked most of the cases, but I found a bug: "лебед" и "дебел" - counter hits 2 and returns FALSE.
+                    So I added a break after the counter incrementation, and it worked. For a time. "ллллл" and "лебед" returned TRUE.
+                    I had to remove the break but check the two words with one another, adding a second counter.
+                    It should be bulletproof now.
+                    Better ideas?
  */
+
+                  
+
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -38,14 +48,7 @@ public class StringTasks05 {
                     if (string1.charAt(i) == string2.charAt(j)) {
                         counter1++;
                     }
-                    /*
-                    I worked with one counter and in the last conditional statement (row 44) I would return false if counter != 1.
-                    It worked most of the cases, but I found a bug: "лебед" и "дебел" - counter hits 2 and returns FALSE.
-                    So I added a break after the counter incrementation, and it worked. For a time. "ллллл" and "лебед" returned TRUE.
-                    I had to remove the break but check the two words with one another, adding a second counter.
-                    It should be bulletproof now.
-                    Better ideas?
-                     */
+                   
                     if (string2.charAt(i) == string1.charAt(j)) {
                         counter2++;
                     }
