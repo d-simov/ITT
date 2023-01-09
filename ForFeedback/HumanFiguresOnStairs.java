@@ -3,6 +3,8 @@ package Lesson04PracticeOnLoops;
 import java.util.Scanner;
 
 public class HumanFiguresOnStairs {
+    
+    //No issue. Please, just check if OK and optimal.
 
     public static void main(String[] args) {
 
