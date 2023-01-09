@@ -3,6 +3,8 @@ package Lesson08StringsAndMethods;
 import java.util.Scanner;
 
 public class BookTask10_Strings_Methods {
+    
+    //No issue. Please, just check if OK and optimal.
 
     public static void main(String[] args) {
 
