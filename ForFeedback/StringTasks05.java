@@ -9,7 +9,7 @@ public class StringTasks05 {
 е анаграма (съдържа същите символи, но не задължително в
 същия ред) на друг символен низ.
 
-                    I worked with one counter and in the last conditional statement (row 44) I would return false if counter != 1.
+                    I worked with one counter and in the last conditional statement (row 40) I would return false if counter != 1.
                     It worked most of the cases, but I found a bug: "лебед" и "дебел" - counter hits 2 and returns FALSE.
                     So I added a break after the counter incrementation, and it worked. For a time. "ллллл" and "лебед" returned TRUE.
                     I had to remove the break but check the two words with one another, adding a second counter.
