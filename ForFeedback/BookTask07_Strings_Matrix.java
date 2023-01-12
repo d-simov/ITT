@@ -3,6 +3,11 @@ package Lesson08StringsAndMethods;
 import java.util.Scanner;
 
 public class BookTask07_Strings_Matrix {
+    /*
+    Че е вярно решена - вярно е. Че е оптимално решена - май не.
+    Много зачукани стават зависимостите за изписване на звездичките, затворени в ромба.
+    Виждаш ли по-прост начин?
+    */
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
