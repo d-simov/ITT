@@ -3,6 +3,12 @@ package Lesson08StringsAndMethods;
 import java.util.Scanner;
 
 public class BookTask07_Strings_Loop {
+    /*
+    Задача 7 от книгата, раздел Низове. Озадачава ме. Не, защото е нещо странно, а защото не виждам как да приложа знанието от Strings&Methods в нея.
+    По-долу я реших с вложени цикли.
+    В съседния class я реших с двумерен масив.
+    Пропускам ли начин за решаване?
+    */
 
     public static void main(String[] args) {
 
