@@ -3,4 +3,4 @@ Advanced Fighter simulation, including:
      - do critical damage
      - dodge hit
      - block damage
-  - level up.
+  - level up (increase min damage and max damage).
