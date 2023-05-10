@@ -13,12 +13,10 @@ Fighters gain experience. Experience increases level of fighter. Level affects d
 
 2. A Fighter can:
   - gain levels [1-5]:
-    - modify damage.
+    - modifies damage (+1 damage added per level gained).
   - hit:
       - chance for kick (0-100%) - (125% of basic damage);
       - chance for fist hit (100% - kickchance) - (75% of basic damage);
-      - chance to make critical hit (0-100%) - (double damage - no dodge or block possible);
-      - chance to dodge (0-100%) - (avaoid damage);
-      - chance to block damage (0-100%) - (reflect half of the damage when being hit)
-  - dodge;
-  - block;
+      - chance to make critical hit (0-100%) - (double damage - no dodge or block possible).
+  - dodge - chance to dodge (0-100%) - (avaoid damage);
+  - block - chance to block damage (0-100%) - (reflect half of the damage when being hit).
