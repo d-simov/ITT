@@ -13,5 +13,7 @@ public class ElectionsDemo {
         for (int i = 0; i < 100; i++) {
             System.out.println(Util.getRandomNumber(20, 25));
         }
+	candidates.add(new Showman());
+        System.out.println(candidates.pollFirst());
     }
 }

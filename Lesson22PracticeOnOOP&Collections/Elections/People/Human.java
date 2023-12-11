@@ -38,11 +38,8 @@ public abstract class Human implements Comparable<Human> {
             "Collins", "Murphy", "Mitchell", "Thompson", "Baker", "Adams", "Turner", "Edwards", "Harris", "Hall",
             "Stewart", "Reed", "Mitchell", "Cooper", "Clark", "Harris", "Parker", "Bennett", "Turner", "Wood",
             "Walker", "Murphy", "Turner"};
-    protected Random rand;
-
     protected Human() {
-        rand = new Random();
-        this.gender = (rand.nextBoolean()? Gender.MALE : Gender.FEMALE);
+     this.gender = (Util.getRandomBoolean()? Gender.MALE : Gender.FEMALE);
         this.name = (this.gender == Gender.MALE ? getName(firstMaleNames) : getName(firstFemaleNames)) +
                 " " + getName(middleNames) + " " + getName(lastNames);
         this.EGN = ""+firstEGN;
@@ -59,7 +56,7 @@ public abstract class Human implements Comparable<Human> {
     }
 
     private String getName(String[] arrayOfNames) {
-        return arrayOfNames[rand.nextInt(arrayOfNames.length)];
+        return arrayOfNames[Util.getRandomNumber(0, arrayOfNames.length - 1)];
     }
 
     @Override
