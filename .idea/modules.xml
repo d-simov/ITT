@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ITT.iml" filepath="$PROJECT_DIR$/ITT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson15ClassesAndObjects/Lesson15ClassesAndObjects.iml" filepath="$PROJECT_DIR$/Lesson15ClassesAndObjects/Lesson15ClassesAndObjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson16Encapsulation/Lesson16Encapsulation.iml" filepath="$PROJECT_DIR$/Lesson16Encapsulation/Lesson16Encapsulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson18Inheritance/Lesson18Inheritance.iml" filepath="$PROJECT_DIR$/Lesson18Inheritance/Lesson18Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson19Abstraction/Lesson19Abstraction.iml" filepath="$PROJECT_DIR$/Lesson19Abstraction/Lesson19Abstraction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson20Polymorphism/Lesson20Polymorphism.iml" filepath="$PROJECT_DIR$/Lesson20Polymorphism/Lesson20Polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson22PracticeOnOOP&amp;Collections/Lesson22PracticeOnOOP&amp;Collections.iml" filepath="$PROJECT_DIR$/Lesson22PracticeOnOOP&amp;Collections/Lesson22PracticeOnOOP&amp;Collections.iml" />
+    </modules>
+  </component>
+</project>

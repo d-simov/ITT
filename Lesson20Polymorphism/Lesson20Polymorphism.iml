@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Notepad-SecuredNotepad" isTestSource="false" packagePrefix="main.SecuredNotepad" />
+      <sourceFolder url="file://$MODULE_DIR$/NotepadTask" isTestSource="false" packagePrefix="main.Notepad" />
+      <sourceFolder url="file://$MODULE_DIR$/SocietyPolymorphism" isTestSource="false" packagePrefix="main.PolimorphysmWithSociety" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Lesson22PracticeOnOOP&amp;Collections" />
+    <orderEntry type="module" module-name="Lesson18Inheritance" />
+  </component>
+</module>
