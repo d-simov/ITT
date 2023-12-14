@@ -1,7 +1,7 @@
-package main.people.voters;
+package main.People.voters;
 
 import main.City;
-import main.people.candidates.Candidate;
+import main.People.candidates.Candidate;
 
 public class WealthyVoter extends Voter {
 

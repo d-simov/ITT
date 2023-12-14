@@ -1,17 +1,17 @@
-package main.people.candidates;
+package main.People.candidates;
 
+import main.Campaigns.Campaign;
 import main.Util;
-import main.campaigns.Campaign;
-import main.people.Human;
+import main.People.Human;
 
 public abstract class Candidate extends Human {
 
     protected enum Education {
-        NO_EDUCATION, BASIC_EDUCATION, HIGH_SCHOOL, UNIVERSITY;
+        NO_EDUCATION, BASIC_EDUCATION, HIGH_SCHOOL, UNIVERSITY
     }
 
-    private Education education;
-    private int campaignMoney;
+    private final Education education;
+    private final int campaignMoney;
     private static final int MIN_BUDGET = 50000;
     private static final int MAX_BUDGET = 300000;
     private Campaign campaign;
@@ -26,12 +26,7 @@ public abstract class Candidate extends Human {
 
     protected abstract Campaign organizeCampaign();
 
-    protected abstract Education getEducation();
-
-
-    public Education getEducation() {
-        return education;
-    }
+    protected abstract Education setEducation();
 
     public int getCampaignMoney() {
         return this.campaignMoney;
@@ -39,5 +34,9 @@ public abstract class Candidate extends Human {
 
     public Campaign getCampaign() {
         return campaign;
+    }
+
+    public Education getEducation() {
+        return education;
     }
 }

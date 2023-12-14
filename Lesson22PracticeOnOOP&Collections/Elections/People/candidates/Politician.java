@@ -1,9 +1,10 @@
-package main.people.candidates;
+package main.People.candidates;
 
+import main.Campaigns.Campaign;
+import main.Campaigns.CriminalCampaign;
+import main.Campaigns.NormalCampaign;
+import main.People.candidates.Candidate;
 import main.Util;
-import main.campaigns.Campaign;
-import main.campaigns.CriminalCampaign;
-import main.campaigns.NormalCampaign;
 
 public class Politician extends Candidate {
 

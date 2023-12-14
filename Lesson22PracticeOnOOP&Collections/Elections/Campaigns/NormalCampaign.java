@@ -1,4 +1,4 @@
-package main.campaigns;
+package main.Campaigns;
 
 public class NormalCampaign extends Campaign {
 

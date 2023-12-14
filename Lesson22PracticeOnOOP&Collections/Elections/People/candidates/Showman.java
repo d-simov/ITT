@@ -1,8 +1,8 @@
-package main.people.candidates;
+package main.People.candidates;
 
 import main.Util;
-import main.campaigns.Campaign;
-import main.campaigns.NormalCampaign;
+import main.Campaigns.Campaign;
+import main.Campaigns.NormalCampaign;
 
 public class Showman extends Candidate {
 

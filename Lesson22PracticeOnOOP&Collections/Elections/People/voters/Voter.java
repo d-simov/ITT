@@ -1,10 +1,10 @@
-package main.people.voters;
+package main.People.voters;
 
 import main.City;
 import main.Util;
-import main.campaigns.Campaign;
-import main.people.candidates.Candidate;
-import main.people.Human;
+import main.Campaigns.Campaign;
+import main.People.candidates.Candidate;
+import main.People.Human;
 
 import static main.City.*;
 
@@ -15,7 +15,7 @@ public abstract class Voter extends Human {
     protected boolean payedVote;
     Campaign campaign;
 
-    public Voter(Candidate chosenCandidate, boolean payedVote) {
+    public Voter(City hometown, Candidate chosenCandidate, boolean payedVote) {
         this.hometown = setCity();
         this.chosenCandidate = chosenCandidate;
         this.payedVote = payedVote;

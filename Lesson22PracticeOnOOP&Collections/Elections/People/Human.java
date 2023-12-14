@@ -1,6 +1,8 @@
-package main.people;
+package main.People;
 
-import java.util.Random;
+import main.Util;
+
+
 
 public abstract class Human implements Comparable<Human> {
 

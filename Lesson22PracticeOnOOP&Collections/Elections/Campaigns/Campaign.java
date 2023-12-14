@@ -1,13 +1,14 @@
-package main.campaigns;
+package main.Campaigns;
 
+import main.People.candidates.Candidate;
 import main.Util;
-import main.people.candidates.Candidate;
 
 public abstract class Campaign {
 
     protected int duration;
     protected int budget;
     protected Candidate campaignOwner;
+    protected main.People.voters.Voter voter;
 
 
     Campaign() {

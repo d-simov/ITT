@@ -1,6 +1,7 @@
 package main;
 
-import main.people.Human;
+import main.People.Human;
+import main.People.candidates.Showman;
 
 import java.util.TreeSet;
 

@@ -1,8 +1,8 @@
-package main.people.candidates;
+package main.People.candidates;
 
+import main.Campaigns.Campaign;
+import main.Campaigns.CriminalCampaign;
 import main.Util;
-import main.campaigns.Campaign;
-import main.campaigns.CriminalCampaign;
 
 public class Criminal extends Candidate {
 
