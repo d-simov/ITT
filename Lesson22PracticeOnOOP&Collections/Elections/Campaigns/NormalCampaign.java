@@ -1,5 +1,10 @@
 package main.Campaigns;
 
+import main.People.voters.IlliterateVoter;
+import main.People.voters.Voter;
+import main.Util;
+import main.VotingSections.CVC;
+
 public class NormalCampaign extends Campaign {
 
     public NormalCampaign() {
@@ -7,9 +12,22 @@ public class NormalCampaign extends Campaign {
     }
 
     @Override
-    protected void generateVoters() {
+    protected void generateVoters(CVC localSections) {
         for (int i = 0; i < this.getDailyVotesGenerated(); i++) {
-//            ENTER SOME CODE HERE;
+            int chance = Util.getRandomNumber(0,100);
+            Voter voter = null;
+            if (chance <= 33) {
+                voter = generateNewIlliterateVoter();
+            } else if(chance <= 67) {
+                voter = generateNewMiddleClassVoter();
+            } else {
+                voter = generateNewWealthyVoter();
+            }
+            for (String city : CVC.getLocalSections().keySet()) {
+                if (city.equals(voter.getHometown())) {
+                    localSections.
+                }
+            }
         }
     }
 

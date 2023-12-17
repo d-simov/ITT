@@ -39,4 +39,5 @@ public abstract class Candidate extends Human {
     public Education getEducation() {
         return education;
     }
+
 }

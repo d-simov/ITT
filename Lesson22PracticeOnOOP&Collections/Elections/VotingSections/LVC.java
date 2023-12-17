@@ -1,8 +1,22 @@
 package main.VotingSections;
 
-import java.util.HashSet;
+import main.People.voters.Voter;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class LVC {
 
-    HashSet<String> hash;
+    private String name;
+    private int numberOfVoters;
+    private ArrayList<Voter> voters;
+
+    public LVC(String town) {
+        this.name = town;
+        voters = new ArrayList<>();
+    }
+
+    public ArrayList<Voter> getVoters() {
+        return voters;
+    }
 }

@@ -5,7 +5,7 @@ import main.People.candidates.Candidate;
 
 public class MiddleClassVoter extends Voter {
 
-    public MiddleClassVoter(City hometown, Candidate chosenCandidate, boolean payedVote) {
-        super(hometown, chosenCandidate, payedVote);
+    public MiddleClassVoter(Candidate chosenCandidate, boolean payedVote) {
+        super(chosenCandidate, payedVote);
     }
 }

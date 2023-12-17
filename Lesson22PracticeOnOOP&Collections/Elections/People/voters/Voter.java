@@ -13,13 +13,13 @@ public abstract class Voter extends Human {
     protected City hometown;
     private Candidate chosenCandidate;
     protected boolean payedVote;
-    Campaign campaign;
+    private Campaign campaign;
 
-    public Voter(City hometown, Candidate chosenCandidate, boolean payedVote) {
+    public Voter(Candidate chosenCandidate, boolean payedVote) {
         this.hometown = setCity();
         this.chosenCandidate = chosenCandidate;
         this.payedVote = payedVote;
-//        this.campaign = ;
+
     }
 
     public void getBallot(){
@@ -45,6 +45,10 @@ public abstract class Voter extends Human {
         } else {
             return POPOVO;
         }
+    }
+
+    public City getHometown() {
+        return hometown;
     }
 
     public Candidate getChosenCandidate() {
