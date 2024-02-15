@@ -15,7 +15,7 @@ public class CompetitionDiary {
     List<VeteranArcher> veteranList;
 
 
-    CompetitionDiary() {
+    public CompetitionDiary() {
         juniorList = new ArrayList<>();
         seniorList = new ArrayList<>();
         veteranList = new ArrayList<>();

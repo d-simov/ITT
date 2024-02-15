@@ -1,4 +1,4 @@
-package main;
+package main.bows;
 
 import main.archers.Archer;
 import main.archers.JuniorArcher;
@@ -6,6 +6,7 @@ import main.archers.SeniorArcher;
 import main.archers.VeteranArcher;
 import main.bows.AluminiumBow;
 import main.bows.CarbonBow;
+import main.bows.ITArcherSportsClub;
 import main.bows.WoodenBow;
 
 import java.util.Random;

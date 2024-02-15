@@ -25,7 +25,7 @@ public class NormalCampaign extends Campaign {
             }
             for (String city : CVC.getLocalSections().keySet()) {
                 if (city.equals(voter.getHometown())) {
-                    localSections.
+//                    localSections.
                 }
             }
         }

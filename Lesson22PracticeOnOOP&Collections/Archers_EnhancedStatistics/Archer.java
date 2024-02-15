@@ -34,7 +34,7 @@ public abstract class Archer {
 
     }
 
-    abstract boolean validExperience(int experience);
+    protected abstract boolean validExperience(int experience);
 
     public void getInfo() {
         System.out.println(this.name + " is " + this.age + " years old " + this.getClass().getSimpleName() + ", has " + this.experienceInYears +

@@ -16,7 +16,7 @@ public class VeteranArcher extends Archer {
     }
 
     @Override
-    boolean validExperience(int experience) {
+    protected boolean validExperience(int experience) {
         return experience >= 10 && experience <= 40;
     }
 

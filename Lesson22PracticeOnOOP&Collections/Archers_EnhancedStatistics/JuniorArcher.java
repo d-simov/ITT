@@ -1,10 +1,10 @@
-package main.archers;
+package main.bows;
 
 import main.bows.WoodenBow;
 
 import java.util.Random;
 
-public class JuniorArcher extends Archer {
+public class JuniorArcher extends main.archers.Archer {
 
 
     public JuniorArcher(int experienceInYears) {

@@ -1,5 +1,6 @@
-package main;
+package main.bows;
 
+import main.CompetitionDiary;
 import main.archers.Archer;
 
 import java.util.ArrayList;
@@ -35,9 +36,9 @@ public class ITArcherSportsClub {
 
     private void printTournamentStatistics() {
         printWinner();
-        printAverageResult();
-        printSharpshooter();
-        printLooser();
+//        printAverageResult();
+//        printSharpshooter();
+//        printLooser();
     }
 
     private void printWinner() {
