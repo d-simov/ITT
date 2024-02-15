@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ForFeedback" isTestSource="false" packagePrefix="Lesson08StringsAndMethods" />
+      <sourceFolder url="file://$MODULE_DIR$/Lesson04NestedLoopsFigures" isTestSource="false" packagePrefix="Lesson04PracticeOnLoops" />
+      <sourceFolder url="file://$MODULE_DIR$/Lesson04PracticeOnLoops" isTestSource="false" packagePrefix="Lesson10PracticeOnStringsMethodsRecursion" />
+      <sourceFolder url="file://$MODULE_DIR$/Lesson16Encapsulation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lesson19Abstraction" isTestSource="false" packagePrefix="main" />
+      <sourceFolder url="file://$MODULE_DIR$/Lesson22PracticeOnOOP&amp;Collections" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_Interesting_Tasks" isTestSource="false" packagePrefix="Lesson08StringsAndMethods" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Lesson22PracticeOnOOP&amp;Collections" />
+    <orderEntry type="module" module-name="Lesson18Inheritance" />
+  </component>
+</module>
