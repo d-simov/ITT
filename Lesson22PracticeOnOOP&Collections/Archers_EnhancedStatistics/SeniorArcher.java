@@ -6,7 +6,7 @@ import main.bows.SeniorBow;
 
 import java.util.Random;
 
-public class SeniorArcher extends Archer {
+public class SeniorArcher extends main.archers.Archer {
 
 
     public SeniorArcher(int experienceInYears) {

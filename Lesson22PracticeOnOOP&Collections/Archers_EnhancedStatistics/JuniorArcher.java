@@ -14,7 +14,7 @@ public class JuniorArcher extends main.archers.Archer {
     }
 
     @Override
-    boolean validExperience(int experience) {
+    protected boolean validExperience(int experience) {
         return experience > 0 && experience < 3;
     }
 

@@ -1,5 +1,6 @@
 package main.bows;
 
+import main.Archer;
 import main.archers.Archer;
 import main.archers.JuniorArcher;
 import main.archers.SeniorArcher;

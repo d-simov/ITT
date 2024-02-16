@@ -1,4 +1,4 @@
-package main.archers;
+package main;
 
 import main.bows.Bow;
 
@@ -7,7 +7,7 @@ import java.util.Random;
 public abstract class Archer {
 
     private String name;
-    private final Gender archerGender;
+    private final main.archers.Gender archerGender;
     private int age;
     private Bow bow;
     private int experienceInYears;
@@ -21,11 +21,11 @@ public abstract class Archer {
             "Anna", "Stasi", "Fani", "Stela", "Kati", "Andi", "Sofia"};
 
     public Archer(int experienceInYears) {
-        this.archerGender = ((new Random().nextBoolean())? Gender.MALE: Gender.FEMALE);
+        this.archerGender = ((new Random().nextBoolean())? main.archers.Gender.MALE: main.archers.Gender.FEMALE);
         if (validExperience(experienceInYears)) {
             this.experienceInYears = experienceInYears;
         }
-        if (this.archerGender == Gender.MALE) {
+        if (this.archerGender == main.archers.Gender.MALE) {
             this.name = maleNames[new Random().nextInt(maleNames.length)];
         } else {
             this.name = femaleNames[new Random().nextInt(femaleNames.length)];

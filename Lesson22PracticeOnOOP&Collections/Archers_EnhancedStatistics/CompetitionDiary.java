@@ -4,6 +4,7 @@ import main.archers.Archer;
 import main.archers.JuniorArcher;
 import main.archers.SeniorArcher;
 import main.archers.VeteranArcher;
+import main.bows.JuniorArcher;
 
 import java.util.ArrayList;
 import java.util.List;
