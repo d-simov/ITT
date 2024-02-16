@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class LoopTask06 {
 
     public static void main(String[] args) {
+// Да се прочете число от екрана(конзолата) и да се
+// изведе сбора на всички числа между 1 и въведеното число.
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Please, enter an integer number an you will receive the sum of numbers between it and 1:");
